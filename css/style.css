@@ -106,3 +106,7 @@ footer .end{
   align-items: center;
   font-size: 12px;
 }
+
+footer li i:active{
+  color: green;
+}
