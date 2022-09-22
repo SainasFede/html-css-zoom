@@ -5,7 +5,6 @@
 }
 
 header{
-  position: fixed;
   width: 100%;
   height: 60px;
   background-color: black;
@@ -14,7 +13,7 @@ header{
 
 header span{
   color: white;
-  background-color: lightgray;
+  background-color: #4a4a4a;
   border-radius: 4px;
   padding: 4px;
 }
@@ -31,6 +30,7 @@ main{
   background-color:black;
   margin: 0 auto;
   text-align: center;
+  overflow: auto;
 }
 
 .box-user{
@@ -41,10 +41,27 @@ main{
   display: inline-block;
   min-width: 6vw;
   min-height: 10vh;
+  position: relative;
 }
 
 .box-user img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.box-user .user-name{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: red;
+  background-color:rgba(0,0,0,0.2);
+  font-size: 1vw;
+  
+}
+
+footer{
+  background-color: lightgray;
+  height: 80px;
+  width: 100%;
 }
