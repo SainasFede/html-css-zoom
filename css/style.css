@@ -25,12 +25,14 @@ header div{
 main{
   padding: 60px;
   background-color: black;
+  height: calc(100vh - 140px);
+  overflow: scroll;
 }
+
 .container{
   background-color:black;
   margin: 0 auto;
   text-align: center;
-  overflow: auto;
 }
 
 .box-user{
