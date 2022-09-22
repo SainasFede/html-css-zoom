@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-y: hidden;
+}
 header{
   width: 100%;
   height: 60px;
@@ -23,17 +26,14 @@ header div{
 }
 
 main{
-  padding: 60px;
+  padding: 10px;
   background-color: black;
   height: calc(100vh - 140px);
   overflow: scroll;
+  text-align: center;
+  overflow-x: hidden;
 }
 
-.container{
-  background-color:black;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .box-user{
   background-color: brown;
@@ -63,7 +63,46 @@ main{
 }
 
 footer{
-  background-color: lightgray;
+  background-color: #222222;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: white;
+}
+
+footer ul{
+  display: flex;
+  align-self: center;
+}
+
+footer ul li{
+  text-align: center;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+li .icons-big{
+  font-size: 25px;
+}
+
+li  .icons-small{
+  font-size: 10px;
+}
+
+li p{
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer .end{
+  width: 100px;
+  height: 60px;
+  background-color: rgba(74,74,74,255);
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
