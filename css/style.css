@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  text-align: right;
+}
+
+header span{
+  color: white;
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+header div{
+  padding: 10px;
+}
+
+main{
+  padding: 60px;
+  background-color: black;
+}
+.container{
+  background-color:black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box-user{
+  background-color: brown;
+  width: 13vw;
+  height: 20vh;
+  margin: 10px 5px;
+  display: inline-block;
+  min-width: 6vw;
+  min-height: 10vh;
+}
+
+.box-user img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
